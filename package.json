@@ -1,0 +1,34 @@
+{
+  "name": "replace-word",
+  "version": "1.0.0",
+  "description": "Several tools for changing a word into something.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JastinXyz/replace-word.git"
+  },
+  "keywords": [
+    "emojify",
+    "emojipasta",
+    "toemoji",
+    "owoify",
+    "owoifier",
+    "aesthetic",
+    "clap",
+    "alay",
+    "word",
+    "replace",
+    "replace-word",
+    "generator",
+    "text-generator"
+  ],
+  "author": "JstnLT <contact@jstnlt.my.id>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JastinXyz/replace-word/issues"
+  },
+  "homepage": "https://github.com/JastinXyz/replace-word#readme"
+}
