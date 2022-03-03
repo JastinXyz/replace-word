@@ -18,7 +18,7 @@ console.log(res); // result e.g: hello 👋 friend!! 😎
 ```
 
 # Documentation
-- `<replaceWord>.toemoji("word")` - Replace the inputted letters and numbers into emojis. Maybe there are some consoles that don't support number emoji if you use console.log
+- `<replaceWord>.toEmoji("word")` - Replace the inputted letters and numbers into emojis. Maybe there are some consoles that don't support number emoji if you use console.log
 
 ```js
 replaceWord.toEmoji('word') // 🇼 🇴 🇷 🇩
