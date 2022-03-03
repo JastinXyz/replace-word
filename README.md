@@ -21,7 +21,7 @@ console.log(res); // result e.g: hello 👋 friend!! 😎
 - `<replaceWord>.toemoji("word")` - Replace the inputted letters and numbers into emojis. Maybe there are some consoles that don't support number emoji if you use console.log
 
 ```js
-replaceWord.toemoji('word') // 🇼 🇴 🇷 🇩
+replaceWord.toEmoji('word') // 🇼 🇴 🇷 🇩
 ```
 
 - `<replaceWord>.hilih("word")` - Replace vowels (A, I, U, E, O) to "i".
@@ -62,10 +62,36 @@ replaceWord.owoify('hello world!') // OwO hewwo wowwd! (　'◟ ')
 replaceWord.aesthetic('word') // ｗｏｒｄ
 ```
 
-- `<replaceWord>.emojipasta("word")` - I 💰👀 really 😏😏😏 really 🙌 want 🌛 to use 📤🏻 this function.
+- `<replaceWord>.emojipasta("word", [density (default: 100)], [shouldFilterEmojis? (default: true)])` - I 💰👀 really 😏😏😏 really 🙌 want 🌛 to use 📤🏻 this function.
 
 ```js
 replaceWord.emojipasta('word') // word 📝
+
+// or
+
+replaceWord.emojipasta('word', 0) // word 🗣
+
+// or
+
+replaceWord.emojipasta('word', 100, false) // word 🍆
+```
+
+- `<replaceWord>.toMorse("word")` - Text to morse converter.
+
+```js
+replaceWord.toMorse('word') // .-- --- .-. -..
+```
+
+- `<replaceWord>.toBinary("word")` - Text to binary code converter.
+
+```js
+replaceWord.toBinary('word') // 01110111 01101111 01110010 01100100
+```
+
+- `<replaceWord>.aestheticBrackets("word")` - 【ｉｄｋ．】
+
+```js
+replaceWord.aestheticBrackets('word') // 【ｗｏｒｄ】
 ```
 
 <div align="center">
